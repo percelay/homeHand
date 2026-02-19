@@ -1,0 +1,24 @@
+# RAW CONTENT TO INJECT
+
+- [COMPANY_NAME] -> Use: "Home & Handy"
+- [HERO_HEADLINE] -> Use: "Expert Craftsmanship. Reliable Service."
+- [HERO_SUBHEAD] -> Use: "Your trusted partner for home maintenance, remodeling, and landscaping in Bethany, OK."
+- [CTA_BUTTON] -> Use: "Request a Quote"
+
+- [SERVICES_LIST_AND_ICONS] -> Map to the following services:
+  1. Maintenance
+  2. Remodeling
+  3. Flooring
+  4. Plumbing
+  5. Drywall
+  6. Painting
+  7. Landscaping
+
+- [GALLERY_FILTERS] -> Use the same list of services above to filter the image grid.
+
+- [TESTIMONIALS_PLACEHOLDER] -> Use: "Generate 3-4 realistic placeholder testimonials praising Home & Handy's promptness, quality of remodeling work, and reliable landscaping."
+
+- [FOOTER_LOCATION] -> Use: "Bethany, OK 73008"
+- [FOOTER_LINKS] -> 
+  - BBB Profile: https://www.bbb.org/us/ok/bethany/profile/handyman/home-handy-0995-90116560
+  - Facebook: https://www.facebook.com/p/HOME-HANDY-100083082985084/
