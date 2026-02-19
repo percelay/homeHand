@@ -226,16 +226,18 @@ export default function HomePage() {
       </header>
 
       <main id="top" className="relative z-10">
-        <section className="relative h-screen min-h-[800px] border-b border-white/10">
+        <section className="relative min-h-screen border-b border-white/10">
           <img
             src="/images/hero%20copy.jpeg"
             alt="Home & Handy team at work"
             className="absolute inset-0 h-full w-full object-cover"
+            style={{ transform: "scaleX(-1)" }}
           />
+          <div className="absolute inset-0 bg-gradient-to-t from-bg/90 via-bg/40 to-bg/20" />
 
-          <div className="relative flex h-full w-full items-end p-6 pb-10 md:p-10 md:pb-12 lg:p-16 lg:pb-16">
-            <div className="grid w-full max-w-7xl items-end gap-8 lg:grid-cols-2">
-              <div className="max-w-3xl">
+          <div className="relative z-10 flex min-h-screen flex-col justify-end px-6 pb-10 pt-28 md:px-10 md:pb-12 md:pt-32 lg:px-16 lg:pb-16 lg:pt-36">
+            <div className="mx-auto flex w-full max-w-7xl flex-col gap-8 lg:flex-row lg:items-end">
+              <div className="flex-1">
                 <p className="mb-4 text-xs font-semibold uppercase tracking-[0.22em] text-white">
                   Bethany, Oklahoma Home Services
                 </p>
@@ -250,7 +252,7 @@ export default function HomePage() {
               <form
                 id="quote-form"
                 onSubmit={(event) => event.preventDefault()}
-                className="w-full rounded-sm border border-white/10 bg-bg/80 p-5 backdrop-blur-sm md:ml-auto md:max-w-md"
+                className="w-full shrink-0 rounded-sm border border-white/10 bg-bg/80 p-5 backdrop-blur-sm lg:max-w-md"
               >
                 <h2 className="mb-4 text-lg font-black uppercase tracking-[0.1em] text-white">
                   Request a Quote

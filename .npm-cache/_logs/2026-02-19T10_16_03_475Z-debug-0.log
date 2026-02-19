@@ -37,3 +37,65 @@
 36 silly idealTree buildDeps
 37 silly fetch manifest lucide-react@^0.525.0
 38 silly fetch manifest next@^15.0.0
+39 silly fetch manifest react@^19.0.0
+40 silly fetch manifest react-dom@^19.0.0
+41 silly fetch manifest @tailwindcss/postcss@^4.0.0
+42 silly fetch manifest @types/node@^22.10.1
+43 silly fetch manifest @types/react@^19.0.2
+44 silly fetch manifest @types/react-dom@^19.0.2
+45 silly fetch manifest postcss@^8.4.49
+46 silly fetch manifest tailwindcss@^4.0.0
+47 silly fetch manifest typescript@^5.7.2
+48 silly placeDep ROOT @tailwindcss/postcss@ OK for: home-handy-site@0.1.0 want: ^4.0.0
+49 silly placeDep ROOT @types/node@ OK for: home-handy-site@0.1.0 want: ^22.10.1
+50 silly placeDep ROOT @types/react@ OK for: home-handy-site@0.1.0 want: ^19.0.2
+51 silly placeDep ROOT @types/react-dom@ OK for: home-handy-site@0.1.0 want: ^19.0.2
+52 silly placeDep ROOT lucide-react@ OK for: home-handy-site@0.1.0 want: ^0.525.0
+53 silly placeDep ROOT next@ OK for: home-handy-site@0.1.0 want: ^15.0.0
+54 silly placeDep ROOT postcss@ OK for: home-handy-site@0.1.0 want: ^8.4.49
+55 silly placeDep ROOT react@ OK for: home-handy-site@0.1.0 want: ^19.0.0
+56 silly placeDep ROOT react-dom@ OK for: home-handy-site@0.1.0 want: ^19.0.0
+57 silly placeDep ROOT tailwindcss@ OK for: home-handy-site@0.1.0 want: ^4.0.0
+58 silly placeDep ROOT typescript@ OK for: home-handy-site@0.1.0 want: ^5.7.2
+59 timing idealTree:#root Completed in 13198154ms
+60 timing idealTree:node_modules/@tailwindcss/postcss Completed in 0ms
+61 timing idealTree:node_modules/@types/node Completed in 0ms
+62 timing idealTree:node_modules/@types/react Completed in 0ms
+63 timing idealTree:node_modules/@types/react-dom Completed in 0ms
+64 timing idealTree:node_modules/lucide-react Completed in 0ms
+65 timing idealTree:node_modules/next Completed in 0ms
+66 timing idealTree:node_modules/postcss Completed in 0ms
+67 timing idealTree:node_modules/react Completed in 0ms
+68 timing idealTree:node_modules/react-dom Completed in 0ms
+69 timing idealTree:node_modules/tailwindcss Completed in 0ms
+70 timing idealTree:node_modules/typescript Completed in 0ms
+71 timing idealTree:buildDeps Completed in 13198156ms
+72 timing idealTree:fixDepFlags Completed in 1ms
+73 timing idealTree Completed in 13198164ms
+74 timing command:install Completed in 13198168ms
+75 verbose type system
+76 verbose stack FetchError: request to https://registry.npmjs.org/@tailwindcss%2fpostcss failed, reason: getaddrinfo ENOTFOUND registry.npmjs.org
+76 verbose stack     at ClientRequest.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/minipass-fetch/lib/index.js:130:14)
+76 verbose stack     at ClientRequest.emit (node:events:518:28)
+76 verbose stack     at _destroy (node:_http_client:880:13)
+76 verbose stack     at onSocketNT (node:_http_client:900:5)
+76 verbose stack     at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+77 verbose cwd /Users/dalepercelay/Coding Project Repos/WebsitesForWork/homeHand
+78 verbose Darwin 23.6.0
+79 verbose node v20.12.1
+80 verbose npm  v10.5.0
+81 error code ENOTFOUND
+82 error syscall getaddrinfo
+83 error errno ENOTFOUND
+84 error network request to https://registry.npmjs.org/@tailwindcss%2fpostcss failed, reason: getaddrinfo ENOTFOUND registry.npmjs.org
+85 error network This is a problem related to network connectivity.
+85 error network In most cases you are behind a proxy or have bad network settings.
+85 error network
+85 error network If you are behind a proxy, please make sure that the
+85 error network 'proxy' config is set properly.  See: 'npm help config'
+86 verbose exit 1
+87 timing npm Completed in 13198321ms
+88 verbose unfinished npm timer reify 1771496163621
+89 verbose unfinished npm timer reify:loadTrees 1771496163623
+90 verbose code 1
+91 error A complete log of this run can be found in: /Users/dalepercelay/Coding Project Repos/WebsitesForWork/homeHand/.npm-cache/_logs/2026-02-19T10_16_03_475Z-debug-0.log
